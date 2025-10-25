@@ -11,7 +11,7 @@ def validate_discovered_model(sindy_model):
     Validates the SINDy model by comparing its prediction on an unseen trajectory
     against the true system dynamics.
     """
-    print("\n--- Step 3: Validating Discovered Model ---")
+    print("\n--- Validating Discovered Model ---")
 
     # 1. Define an unseen, challenging initial condition (uncontrolled)
     x0_test = [0, 0, np.pi / 2, 0]  # Start from 90 degrees

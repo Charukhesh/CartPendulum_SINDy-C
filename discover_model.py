@@ -6,7 +6,7 @@ def discover_governing_equations():
     """
     Loads the training data and uses SINDy to discover the governing equations
     """
-    print("\n--- Step 2: Discovering Model with SINDy ---")
+    print("\n--- Discovering Model with SINDy ---")
     
     # Load data
     data = np.load(config.TRAIN_DATA_PATH)
